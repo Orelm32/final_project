@@ -198,7 +198,7 @@ while boolean == 0:
 
 
     elif answer == "2":
-        print("Getting all instances information...\n")
+        print("Getting all instances information....\n")
         sleep(2)
         for instance in ec2.instances.all():
             print(
